@@ -174,106 +174,106 @@ console.log(
   )}`
 );
 
-console.log(
-  `Expected output of checkVowel('a') is true  ${myFunctionTest(
-    true,
-    checkVowel("a")
-  )}`
-);
-console.log(
-  `Expected output of checkVowel('b') is false  ${myFunctionTest(
-    false,
-    checkVowel("b")
-  )}`
-);
+// console.log(
+//   `Expected output of checkVowel('a') is true  ${myFunctionTest(
+//     true,
+//     checkVowel("a")
+//   )}`
+// );
+// console.log(
+//   `Expected output of checkVowel('b') is false  ${myFunctionTest(
+//     false,
+//     checkVowel("b")
+//   )}`
+// );
 
-console.log(
-  `Expected output of product([1,2,3,4,5]) is 120  ${myFunctionTest(
-    120,
-    product([1, 2, 3, 4, 5])
-  )}`
-);
-console.log(
-  `Expected output of product([1,2,3,4,5,6]) is 120  ${myFunctionTest(
-    520,
-    product([1, 2, 3, 4, 5, 6])
-  )}`
-);
+// console.log(
+//   `Expected output of product([1,2,3,4,5]) is 120  ${myFunctionTest(
+//     120,
+//     product([1, 2, 3, 4, 5])
+//   )}`
+// );
+// console.log(
+//   `Expected output of product([1,2,3,4,5,6]) is 120  ${myFunctionTest(
+//     520,
+//     product([1, 2, 3, 4, 5, 6])
+//   )}`
+// );
 
-console.log(
-  `Expected output of reverse('Java Script') is <tpircS avaJ> ${myFunctionTest(
-    "tpircS avaJ",
-    reverse("Java Script")
-  )}`
-);
-console.log(
-  `Expected output of reverse('Functions in JS') is <sj ni snoitcnuf>  ${myFunctionTest(
-    "<sj ni snoitcnuf>",
-    reverse("Functions in JS")
-  )}`
-);
+// console.log(
+//   `Expected output of reverse('Java Script') is <tpircS avaJ> ${myFunctionTest(
+//     "tpircS avaJ",
+//     reverse("Java Script")
+//   )}`
+// );
+// console.log(
+//   `Expected output of reverse('Functions in JS') is <sj ni snoitcnuf>  ${myFunctionTest(
+//     "<sj ni snoitcnuf>",
+//     reverse("Functions in JS")
+//   )}`
+// );
 
-console.log(
-  `Expected output of findLongestWord(['ab','abc','abcd','abcde']) is 5 ${myFunctionTest(
-    5,
-    findLongestWord(["ab", "abc", "abcd", "abcde"])
-  )}`
-);
-console.log(
-  `Expected output of findLongestWord(['ab11','abc112278','abcd34','abcde52']) is 7  ${myFunctionTest(
-    7,
-    findLongestWord(["ab11", "abc112278", "abcd34", "abcde52"])
-  )}`
-);
+// console.log(
+//   `Expected output of findLongestWord(['ab','abc','abcd','abcde']) is 5 ${myFunctionTest(
+//     5,
+//     findLongestWord(["ab", "abc", "abcd", "abcde"])
+//   )}`
+// );
+// console.log(
+//   `Expected output of findLongestWord(['ab11','abc112278','abcd34','abcde52']) is 7  ${myFunctionTest(
+//     7,
+//     findLongestWord(["ab11", "abc112278", "abcd34", "abcde52"])
+//   )}`
+// );
 
-console.log(
-  `Expected output of filterLongWords(['ab','abc','abcd','abcde']) is ['abcd','abcde'] ${myFunctionTest(
-    "abcd,abcde",
-    filterLongWords(["ab", "abc", "abcd", "abcde"], 3).toString()
-  )}`
-);
-console.log(
-  `Expected output of filterLongWords(['ab','abc1','abcd1','abcde1']) is ['abc1','abcd1','abcde1'] ${myFunctionTest(
-    ["abcd1", "abcde1"],
-    filterLongWords(["ab", "abc1", "abcd1", "abcde1"], 3)
-  )}`
-);
+// console.log(
+//   `Expected output of filterLongWords(['ab','abc','abcd','abcde']) is ['abcd','abcde'] ${myFunctionTest(
+//     "abcd,abcde",
+//     filterLongWords(["ab", "abc", "abcd", "abcde"], 3).toString()
+//   )}`
+// );
+// console.log(
+//   `Expected output of filterLongWords(['ab','abc1','abcd1','abcde1']) is ['abc1','abcd1','abcde1'] ${myFunctionTest(
+//     ["abcd1", "abcde1"],
+//     filterLongWords(["ab", "abc1", "abcd1", "abcde1"], 3)
+//   )}`
+// );
 
-console.log(
-  `Expected output of multiplyBy10([1,3,5,3,3],10) is [10,30,50,30,30] ${myFunctionTest(
-    [10, 30, 50, 30, 30].toString(),
-    multiplyBy10([1, 3, 5, 3, 3], 10).toString()
-  )}`
-);
-console.log(
-  `Expected output of multiplyBy10([1,3,5,3,3],10) is [1,30,50,30,30] ${myFunctionTest(
-    [1, 30, 50, 30, 30],
-    multiplyBy10([1, 3, 5, 3, 3], 10)
-  )}`
-);
+// console.log(
+//   `Expected output of multiplyBy10([1,3,5,3,3],10) is [10,30,50,30,30] ${myFunctionTest(
+//     [10, 30, 50, 30, 30].toString(),
+//     multiplyBy10([1, 3, 5, 3, 3], 10).toString()
+//   )}`
+// );
+// console.log(
+//   `Expected output of multiplyBy10([1,3,5,3,3],10) is [1,30,50,30,30] ${myFunctionTest(
+//     [1, 30, 50, 30, 30],
+//     multiplyBy10([1, 3, 5, 3, 3], 10)
+//   )}`
+// );
 
-console.log(
-  `Expected output of elementsEqualTo([1,3,5,3,3],3) is [3,3,3] ${myFunctionTest(
-    [3, 3, 3].toString(),
-    elementsEqualTo([1, 3, 5, 3, 3], 3).toString()
-  )}`
-);
-console.log(
-  `Expected output of elementsEqualTo([1,3,5,3,3],3) is [5,3,1] ${myFunctionTest(
-    [5, 3, 1],
-    elementsEqualTo([1, 3, 5, 3, 3], 3)
-  )}`
-);
+// console.log(
+//   `Expected output of elementsEqualTo([1,3,5,3,3],3) is [3,3,3] ${myFunctionTest(
+//     [3, 3, 3].toString(),
+//     elementsEqualTo([1, 3, 5, 3, 3], 3).toString()
+//   )}`
+// );
+// console.log(
+//   `Expected output of elementsEqualTo([1,3,5,3,3],3) is [5,3,1] ${myFunctionTest(
+//     [5, 3, 1],
+//     elementsEqualTo([1, 3, 5, 3, 3], 3)
+//   )}`
+// );
 
-console.log(
-  `Expected output of productOfAllElements([1,3,5,3,3]) is [135] ${myFunctionTest(
-    135,
-    productOfAllElements([1, 3, 5, 3, 3])
-  )}`
-);
-console.log(
-  `Expected output of productOfAllElements([1,3,5,3,3]) is [140] ${myFunctionTest(
-    140,
-    productOfAllElements([1, 3, 5, 3, 3])
-  )}`
-);
+// console.log(
+//   `Expected output of productOfAllElements([1,3,5,3,3]) is [135] ${myFunctionTest(
+//     135,
+//     productOfAllElements([1, 3, 5, 3, 3])
+//   )}`
+// );
+// console.log(
+//   `Expected output of productOfAllElements([1,3,5,3,3]) is [140] ${myFunctionTest(
+//     140,
+//     productOfAllElements([1, 3, 5, 3, 3])
+//   )}`
+// );
